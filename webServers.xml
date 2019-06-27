@@ -1,0 +1,126 @@
+<application>
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="ce0e05b3-8a88-4f67-aa05-758d36d41483" name="ready3" url="http://ready-for-feedback3.com/vuria/verdantis/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/vuria/verdantis/wp-content/themes/verdantis" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="ade4ec2b-3aa3-4781-8565-a2b1b549ffd1" name="readyftp" url="http://do.ready-for-feedback.com/thrively-digital/step-into-alaska/">
+        <fileTransfer host="139.59.147.66" port="21" rootFolder="/thrively-digital/step-into-alaska/wp-content/themes/step-into-alaska">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="2052d5ff-5817-411b-996e-93a3754a7791" name="prokachka" url="http://do.ready-for-feedback.com/prokachka3/sovyk/">
+        <fileTransfer host="139.59.147.66" port="21" rootFolder="/prokachka3/sovyk/wp-content/themes/woo">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="353eca9c-c93a-4d65-90ad-2d0c547541ec" name="sixpoint" url="http://ready-for-feedback3.com/walk-west/sixpoint/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/walk-west/sixpoint/wp-content/themes/sixpoint" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="a13eb447-39a0-4809-a3a0-91eb504ec786" name="PhlixNPhlip" url="http://ready-for-feedback3.com/vuria/phix-n-phlip/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/vuria/phix-n-phlip/wp-content/themes/phix-n-phlip" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="58d09dd8-40c2-47ab-be4a-2d1681235909" name="copleyfocus" url="http://ready-for-feedback3.com/agency-3-0/copley-focus/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/agency-3-0/copley-focus/wp-content/themes/copley-focus" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="f271a734-40b2-41ce-b884-7b942476bc84" name="ratio-advisors" url="http://ready-for-feedback3.com/site-mender/ratio-advisors">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/site-mender/ratio-advisors/wp-content/themes/ration-advisors" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e042b191-7b05-4719-956d-2c63708345a2" name="We are McGregor" url="http://ready-for-feedback3.com/438marketing/mcgregor-boyall/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/438marketing/mcgregor-boyall/wp-content/themes/mcgregor-boyal" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="45ab056d-c2c4-4814-a6d6-adddfe6a68cf" name="nfr" url="http://ready-for-feedback3.com/millennium/nfr/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/millennium/nfr/wp-content/themes/nfr" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="71bcb240-d728-4f58-8449-5ca0c291e20c" name="Cayenne" url="http://ready-for-feedback3.com/cayenne-creative/founders-ib/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/cayenne-creative/founders-ib/wp-content/themes/founders-ib" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="87db189c-ea33-4435-854e-289edfa53607" name="healing-arts" url="http://ready-for-feedback3.com/the-digital-hyve/cny-healing-arts-rebuild/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/the-digital-hyve/cny-healing-arts-rebuild/wp-content/themes/cny-healing-arts-rebuild" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="6e3eb5f1-4b38-4233-9a4a-2a67f533858e" name="Saunders" url="http://ready-for-feedback3.com/vuria/saunders-construction/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/vuria/saunders-construction/wp-content/themes/saunders-construction" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9cac1937-7720-4b9a-96ec-151668cc9645" name="Streamwork" url="http://ready-for-feedback3.com/streamwork-digital/foraging-course-company/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/streamwork-digital/foraging-course-company/wp-content/themes/foraging-course-company" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="e02eecf7-b26a-4465-815f-12877f7c07d3" name="Umbrella" url="http://ready-for-feedback3.com/whitecoat/umbrella/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/whitecoat/umbrella/wp-content/themes/umbrella" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+      <webServer id="9a095743-2365-47a8-9348-06df65570c66" name="Vascular" url="http://ready-for-feedback3.com/target-marketing/preffered-vascular/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/target-marketing/preffered-vascular/wp-content/themes/preffered-vascular" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</application>

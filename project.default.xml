@@ -1,0 +1,23 @@
+<application>
+  <component name="ProjectManager">
+    <defaultProject>
+      <component name="Encoding" addBOMForNewFiles="with NO BOM" />
+      <component name="InspectionProjectProfileManager">
+        <profile version="1.0">
+          <option name="myName" value="Project Default" />
+          <inspection_tool class="Stylelint" enabled="true" level="ERROR" enabled_by_default="true" />
+        </profile>
+        <version value="1.0" />
+      </component>
+      <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
+      <component name="PropertiesComponent">
+        <property name="node.js.path.for.package.stylelint" value="C:/Program Files/nodejs/node" />
+        <property name="node.js.selected.package.stylelint" value="C:\Users\Konstantin\AppData\Roaming\npm\node_modules\stylelint" />
+        <property name="nodejs_interpreter_path" value="node" />
+        <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+        <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+        <property name="settings.editor.selected.configurable" value="configurable.group.tools" />
+      </component>
+    </defaultProject>
+  </component>
+</application>

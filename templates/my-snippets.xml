@@ -1,0 +1,50 @@
+<templateSet group="my-snippets">
+  <template name="php" value="&lt;?php $END$ ?&gt;" description="php wrap" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="if" value="&lt;?php if($$$1$ = get_field('$1$'$2$)) : ?&gt;&#10; $END$&#10;&lt;?php endif; ?&gt;" description="if condition php" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ib" value="@media only screen and (max-width: $1$px) {&#10;   $END$&#10;}" description="media query" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="mxw" value="max-width:$1$;" description="max width" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ifr" value="&lt;?php if (have_rows('$1$'$2$)) : ?&gt;&#10;&#9; &lt;?php while (have_rows('$1$'$2$)) : the_row();&#10;&#9;    $icon = get_sub_field('');&#10;&#9;  ?&gt;&#10;&#9;&#9;$END$&#10;&#9;&#9; &lt;?php the_sub_field('sub_field_name'); ?&gt;&#10;&#9;&#9;&#10;&#9; &lt;?php endwhile; ?&gt;&#10;&lt;?php endif; ?&gt;" description="repeater" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifg" value="&lt;div class=&quot;gallery$END$&quot;&gt;&#10;&#9;&lt;?php if ($$$FIELD_VAR$ = get_field('$FIELD_VAR$')): ?&gt;&#10;&#9;&#9;&lt;?php foreach ( $$$FIELD_VAR$ as $image ): ?&gt;&#10;        &#10;            &lt;div class=&quot;columns small-12 medium-6 large-4&quot;&gt;&#10;                &lt;img class=&quot;img-responsive&quot; src=&quot;&lt;?php echo $image['url']; ?&gt;&quot; alt=&quot;&lt;?php echo $image['alt']; ?&gt;&quot;/&gt;&#10;                &lt;p&gt;&lt;?php echo $image['caption']; ?&gt;&lt;/p&gt;&#10;            &lt;/div&gt;&#10;        &#10;&#9;&#9;&lt;?php endforeach; ?&gt;&#10;&#9;&lt;?php endif; ?&gt;&#10;&lt;/div&gt;" description="Gallery snippet" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="ifrel" value="&lt;?php &#10;&#10;$$$FIELD_VAR$ = get_field('$FIELD_VAR$');&#10;&#10;if( $$$FIELD_VAR$ ): ?&gt;&#10;    &lt;ul $END$&gt;&#10;    &lt;?php foreach( $$$FIELD_VAR$ as $post):  ?&gt;&#10;        &lt;?php setup_postdata($post); ?&gt;&#10;        &lt;li&gt;&#10;            &lt;a href=&quot;&lt;?php the_permalink(); ?&gt;&quot;&gt;&lt;?php the_title(); ?&gt;&lt;/a&gt;&#10;            &lt;span&gt;Custom field from $post: &lt;?php the_field('author'); ?&gt;&lt;/span&gt;&#10;        &lt;/li&gt;&#10;    &lt;?php endforeach; ?&gt;&#10;    &lt;/ul&gt;&#10;    &lt;?php wp_reset_postdata(); ?&gt;&#10;&lt;?php endif; ?&gt;&#10;" description="ACF Relationship" toReformat="true" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+</templateSet>

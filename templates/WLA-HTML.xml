@@ -1,0 +1,100 @@
+<templateSet group="WLA-HTML">
+  <template name="acf:if" value="&lt;?php if($$$FIELD_VAR$ = get_field('$FIELD_NAME$')) : ?&gt;&#10;    $END$&#10;&lt;?php endif; ?&gt;" description="The if-block with the field." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:if:echo" value="&lt;?php if($$$FIELD_VAR$ = get_field('$FIELD_NAME$')) : ?&gt;&#10;    &lt;?php echo $$$FIELD_VAR$;  ?&gt;&#10;&lt;?php endif; ?&gt;$END$" description="The field will echo if it exist." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:if:tag" value="&lt;?php if($$$FIELD_VAR$ = get_field('$FIELD_NAME$')) : ?&gt;&#10;    &lt;$TAG$ class=&quot;$FIELD_CLASS$&quot;&gt;&lt;?php echo $$$FIELD_VAR$; ?&gt;&lt;/$TAG$&gt;&#10;&lt;?php endif; ?&gt;$END$" description="The field will echo intro &lt;div&gt; if it exist." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="TAG" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_CLASS" expression="lowercaseAndDash(FIELD_VAR)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:var" value="&lt;?php $$$FIELD_VAR$ = get_field('$FIELD_NAME$'); ?&gt;$END$" description="Create an acf variable from a field." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:s:if" value="&lt;?php if($$$FIELD_VAR$ = get_sub_field('$FIELD_NAME$')) : ?&gt;&#10;    $END$&#10;&lt;?php endif; ?&gt;" description="The if-block with the sub_field." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:s:if:echo" value="&lt;?php if($$$FIELD_VAR$ = get_sub_field('$FIELD_NAME$')) : ?&gt;&#10;    &lt;?php echo $$$FIELD_VAR$;  ?&gt;&#10;&lt;?php endif; ?&gt;$END$" description="The sub_field will echo if it exist." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:s:if:tag" value="&lt;?php if($$$FIELD_VAR$ = get_sub_field('$FIELD_NAME$')) : ?&gt;&#10;    &lt;$TAG$ class=&quot;$FIELD_CLASS$&quot;&gt;&lt;?php echo $$$FIELD_VAR$; ?&gt;&lt;/$TAG$&gt;&#10;&lt;?php endif; ?&gt;$END$" description="The sub_field will echo intro &lt;div&gt; if it exist." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="TAG" expression="" defaultValue="&quot;div&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_CLASS" expression="lowercaseAndDash(FIELD_VAR)" defaultValue="&quot;&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:s:var" value="&lt;?php $$$FIELD_VAR$ = get_sub_field('$FIELD_NAME$'); ?&gt;$END$" description="Create an acf variable form a sub_field." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;field_name&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="snakeCase(FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="wpq" value="&lt;?php&#10;$paged = ( get_query_var( 'page' ) ) ? get_query_var( 'page' ) : 1;&#10;$args  = array(&#10;&#9;'post_type'      =&gt; 'post$END$',&#10;&#9;'order'          =&gt; 'ASC', // ASC, DESC&#10;&#9;'orderby'        =&gt; 'menu_order', // none, ID, author, title, name, date, modified, parent, rand, comment_count, menu_order, meta_value, meta_value_num, title menu_order, post__in&#10;&#9;'posts_per_page' =&gt; 10, // -1 &#10;&#9;'paged'          =&gt; $paged,&#10;);&#10;?&gt;&#10;&#10;&lt;?php $the_query = new WP_Query( $args ); ?&gt;&#10;&#10;&lt;?php if ( $the_query-&gt;have_posts() ) : ?&gt;&#10;&#10;    &lt;div class=&quot;pagination&quot;&gt;&lt;?php echo foundation_pagination(); ?&gt;&lt;/div&gt;&lt;!-- pagination here --&gt;&#10;&#10;    &lt;!-- the loop --&gt;&#10;&#9;&lt;?php while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); ?&gt;&#10;&#10;&#9;&#9;&lt;?php the_post_thumbnail( 'full', array( 'class' =&gt; 'img-responsive' ) ); ?&gt;&#10;        &lt;h3&gt;&lt;?php the_title(); ?&gt;&lt;/h3&gt;&#10;&#9;&#9;&lt;?php the_content(); ?&gt;&#10;&#10;&#9;&lt;?php endwhile; ?&gt;&#10;    &lt;!-- end of the loop --&gt;&#10;&#10;    &lt;div class=&quot;pagination&quot;&gt;&lt;?php echo foundation_pagination(); ?&gt;&lt;/div&gt;&lt;!-- pagination here --&gt;&#10;&#10;&#9;&lt;?php wp_reset_postdata(); ?&gt;&#10;&#10;&lt;?php else : ?&gt;&#10;&#10;    &lt;p&gt;&lt;?php esc_html_e( 'Sorry, no posts matched your criteria.' ); ?&gt;&lt;/p&gt;&#10;&#10;&lt;?php endif; ?&gt;" description="The WP_Query." toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="cc" value="columns small-$SMALL$ medium-$MEDIUM$ large-$LARGE$$END$" description="The Foundation columns classes." toReformat="false" toShortenFQNames="true">
+    <variable name="SMALL" expression="" defaultValue="&quot;12&quot;" alwaysStopAt="true" />
+    <variable name="MEDIUM" expression="" defaultValue="&quot;12&quot;" alwaysStopAt="true" />
+    <variable name="LARGE" expression="" defaultValue="&quot;12&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:gallery" value="&lt;div class=&quot;gallery$END$&quot;&gt;&#10;&#9;&lt;?php if ($$$FIELD_VAR$ = get_field('$FIELD_NAME$')): ?&gt;&#10;&#9;&#9;&lt;?php foreach ( $$$FIELD_VAR$ as $image ): ?&gt;&#10;        &#10;            &lt;div class=&quot;columns small-12 medium-6 large-4&quot;&gt;&#10;                &lt;img class=&quot;img-responsive&quot; src=&quot;&lt;?php echo $image['url']; ?&gt;&quot; alt=&quot;&lt;?php echo $image['alt']; ?&gt;&quot;/&gt;&#10;                &lt;p&gt;&lt;?php echo $image['caption']; ?&gt;&lt;/p&gt;&#10;            &lt;/div&gt;&#10;        &#10;&#9;&#9;&lt;?php endforeach; ?&gt;&#10;&#9;&lt;?php endif; ?&gt;&#10;&lt;/div&gt;" description="The ACF Gallery." toReformat="false" toShortenFQNames="true">
+    <variable name="FIELD_VAR" expression="" defaultValue="&quot;images&quot;" alwaysStopAt="true" />
+    <variable name="FIELD_NAME" expression="" defaultValue="&quot;gallery&quot;" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:repeater" value="&lt;?php if ( have_rows( '$REPEATER_NAME$' ) ): ?&gt;&#10;&#9;&lt;?php while ( have_rows( '$REPEATER_NAME$' ) ): the_row(); ?&gt;&#10;&#9;&#9;&lt;?php&#10;&#9;&#9;$$$SUB_FIELD_VAR$ = get_sub_field( '$SUB_FIELD_NAME$' );$END$&#10;&#9;&#9;?&gt;&#10;&#10;        &lt;div class=&quot;columns small-12&quot;&gt;&#10;&#9;&#9;&#9;&lt;?php echo $$$SUB_FIELD_VAR$; ?&gt;&#10;        &lt;/div&gt;&#10;&#10;&#9;&lt;?php endwhile; ?&gt;&#10;&lt;?php endif; ?&gt;" description="The ACF Repeater." toReformat="false" toShortenFQNames="true">
+    <variable name="REPEATER_NAME" expression="" defaultValue="&quot;some_repeater&quot;" alwaysStopAt="true" />
+    <variable name="SUB_FIELD_VAR" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="SUB_FIELD_NAME" expression="snakeCase(SUB_FIELD_VAR)" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="e" value="&lt;?php echo $END$; ?&gt;" description="php echo block" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="acf:form" value="    /**&#10;      Help for acf_form():&#10;      Note: You need acf_form_head(); before get_header();&#10;      [01] - (string) Unique identifier for the form. Defaults to 'acf-form'&#10;      [02] - (int|string) The post ID to load data from and save data to. Defaults to the current post ID. Can also be set to 'new_post' to create a new post on submit&#10;      [03] - (array) An array of post data used to create a post. See wp_insert_post for available parameters. The above 'post_id' setting must contain a value of 'new_post'&#10;      [04] - (array) An array of field group IDs/keys to override the fields displayed in this form&#10;      [05] - (array) An array of field IDs/keys to override the fields displayed in this form&#10;      [06] - (boolean) Whether or not to show the post title text field. Defaults to false&#10;      [07] - (boolean) Whether or not to show the post content editor field. Defaults to false&#10;      [08] - (boolean) Whether or not to create a form element. Useful when a adding to an existing form. Defaults to true&#10;      [09] - (array) An array or HTML attributes for the form element&#10;      [10] - (string) The URL to be redirected to after the form is submit. Defaults to the current URL with a GET parameter '?updated=true'. A special placeholder '%post_url%' will be converted to post's permalink (handy if creating a new post). A special placeholder '%post_id%' will be converted to post's ID (handy if creating a new post)&#10;      [11] - (string) Extra HTML to add before the fields&#10;      [12] - (string) Extra HTML to add after the fields&#10;      [13] - (string) The text displayed on the submit button&#10;      [14] - (string) A message displayed above the form after being redirected. Can also be set to false for no message&#10;      [15] - (string) Determines where field labels are places in relation to fields. Defaults to 'top'. Choices of 'top' (Above fields) or 'left' (Beside fields)&#10;      [16] - (string) Determines where field instructions are places in relation to fields. Defaults to 'label'. Choices of 'label' (Below labels) or 'field' (Below fields)&#10;      [17] - (string) Determines element used to wrap a field. Defaults to 'div'. Choices of 'div', 'tr', 'td', 'ul', 'ol', 'dl'&#10;      [18] - (string) Whether to use the WP uploader or a basic input for image and file fields. Defaults to 'wp'. Choices of 'wp' or 'basic'. Added in v5.2.4&#10;      [19] - (boolean) Whether to include a hidden input field to capture non human form submission. Defaults to true. Added in v5.3.4&#10;      [20] - (string) HTML used to render the updated message. Added in v5.5.10&#10;      [21] - (string) HTML used to render the submit button. Added in v5.5.10&#10;      [22] - (string) HTML used to render the submit button loading spinner. Added in v5.5.10&#10;      [23] - (boolean) Whether or not to sanitize all $_POST data with the wp_kses_post() function. Defaults to true. Added in v5.6.5&#10;    */&#10;    $acf_form_args = [&#10;      'id'                    =&gt; 'acf-form', // [01]&#10;      'post_id'               =&gt; false, // [02]&#10;      'new_post'              =&gt; false, // [03]&#10;      'field_groups'          =&gt; false, // [04]&#10;      'fields'                =&gt; false, // [05]&#10;      'post_title'            =&gt; false, // [06]&#10;      'post_content'          =&gt; false, // [07]&#10;      'form'                  =&gt; true, // [08]&#10;      'form_attributes'       =&gt; array(), // [09]&#10;      'return'                =&gt; '', // [10]&#10;      'html_before_fields'    =&gt; '', // [11]&#10;      'html_after_fields'     =&gt; '', // [12]&#10;      'submit_value'          =&gt; __( &quot;Update&quot;, 'acf' ), // [13]&#10;      'updated_message'       =&gt; __( &quot;Post updated&quot;, 'acf' ), // [14]&#10;      'label_placement'       =&gt; 'top', // [15]&#10;      'instruction_placement' =&gt; 'label', // [16]&#10;      'field_el'              =&gt; 'div', // [17]&#10;      'uploader'              =&gt; 'wp', // [18]&#10;      'honeypot'              =&gt; true, // [19]&#10;      'html_updated_message'  =&gt; '&lt;div id=&quot;message&quot; class=&quot;updated&quot;&gt;&lt;p&gt;%s&lt;/p&gt;&lt;/div&gt;', // [20]&#10;      'html_submit_button'    =&gt; '&lt;input type=&quot;submit&quot; class=&quot;acf-button button button-primary button-large&quot; value=&quot;%s&quot; /&gt;', // [21]&#10;      'html_submit_spinner'   =&gt; '&lt;span class=&quot;acf-spinner&quot;&gt;&lt;/span&gt;', // [22]&#10;      'kses'                  =&gt; true // [23]&#10;    ];&#10;    &#10;    acf_form($acf_form_args);" description="The acf_form()" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+</templateSet>

@@ -1,0 +1,30 @@
+<application>
+  <component name="NodeJsLocalInterpreters">
+    <local-interpreter path="C:/Program Files/nodejs/node.exe">
+      <version-cache version="8.16.0" last-modified="1555431988000" />
+    </local-interpreter>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Copy.OpenInEditor" value="true" />
+    <property name="Default.savedEditorTheme" value="_@user_Default" />
+    <property name="ExpandRunDashboardTypesPanel" value="false" />
+    <property name="FileTemplates.SelectedTemplate" value="HTML File" />
+    <property name="OpenOrAttachDialog.OpenMode" value="new" />
+    <property name="PLUGIN_FILTER" value="rainbow" />
+    <property name="PhpStorm.InitialConfiguration" value="true" />
+    <property name="SearchEveryWhereHistory" value="//" />
+    <property name="SettingsSearchHistory" value="local history" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.0" value="300" />
+    <property name="com.intellij.history.integration.ui.views.FileHistoryDialog.1" value="800" />
+    <property name="dir.diff.space.button.info" value="2" />
+    <property name="disable.forced.soft.wraps.notification" value="true" />
+    <property name="evlsprt3.182" value="18" />
+    <property name="evlsprt3.183" value="16" />
+    <property name="file.chooser.recent.files" value="C:/projects/verdantis&#10;C:/projects/saunders-construction&#10;C:/projects/foraging-courses&#10;C:/projects/cayenne&#10;C:/projects/Vascular&#10;C:/projects/X-prokachka&#10;C:/projects/prokachka&#10;C:/projects/vue&#10;C:/projects/Fbin&#10;C:/projects/udmi&#10;C:/projects/ubmrella&#10;C:/projects/alaska&#10;C:/projects/fbin-staging&#10;C:/projects/more than words&#10;C:/projects/Mcgreggor-Boyall&#10;C:/projects/Fbin/header.php&#10;C:/projects/outpatient&#10;C:/projects/spa&#10;C:/projects/we are mcgregor&#10;C:/projects/PhixNPlip&#10;C:/projects/six point&#10;C:/projects/khba&#10;C:/projects/prokacka-woo&#10;C:/projects/sixpoint-finish&#10;C:/projects/john&#10;C:/projects/verdantis-live&#10;C:/projects/bowdoin&#10;C:/projects/nfr&#10;C:/projects/PCR&#10;C:/projects/react30" />
+    <property name="file.gist.reindex.count" value="52055" />
+    <property name="fileTypeChangedCounter" value="4" />
+    <property name="lastTip" value="70" />
+    <property name="plugins.preselection.path" value="$USER_HOME$/Downloads" />
+    <property name="ts.lib.d.ts.version" value="3.2.1" />
+  </component>
+</application>
