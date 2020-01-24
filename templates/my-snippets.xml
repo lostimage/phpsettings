@@ -47,4 +47,44 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ifq" value="&lt;?php&#10;$args  = array(&#10;&#9;'post_type'      =&gt; 'post$END$',&#10;&#9;'order'          =&gt; 'ASC', // ASC, DESC&#10;&#9;'orderby'        =&gt; 'menu_order', // none, ID, author, title, name, date, modified, parent, rand, comment_count, menu_order, meta_value, meta_value_num, title menu_order, post__in&#10;&#9;'posts_per_page' =&gt; -1, &#10;&#9;&#10;);&#10;?&gt;&#10;&#10;&lt;?php $the_query = new WP_Query( $args ); ?&gt;&#10;&#10;&lt;?php if ( $the_query-&gt;have_posts() ) : ?&gt;&#10;&#10;    &lt;!-- the loop --&gt;&#10;&#9;&lt;?php while ( $the_query-&gt;have_posts() ) : $the_query-&gt;the_post(); ?&gt;&#10;&#10;&#9;&#9;&lt;?php the_post_thumbnail( 'full', array( 'class' =&gt; 'img-responsive' ) ); ?&gt;&#10;        &lt;h3&gt;&lt;?php the_title(); ?&gt;&lt;/h3&gt;&#10;&#9;&#9;&lt;?php the_content(); ?&gt;&#10;&#10;&#9;&lt;?php endwhile; ?&gt;&#10;    &lt;!-- end of the loop --&gt;&#10;&#9;&lt;?php wp_reset_postdata(); ?&gt;&#10;&#10;&lt;?php endif; ?&gt;" description="WP Query" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="iflink" value="  &lt;?php if($$$1$ = get_field('$1$'$2$)) :&#10;         $$$1$_target = $$$1$['target'] ? $$$1$['target'] : '_self'; ?&gt;&#10;  &lt;a &lt;?php echo esc_attr( $$$1$_target); ?&gt; href=&quot;&lt;?php echo $$$1$['url'] ?&gt;&quot;&gt;&lt;?php echo $$$1$['title'] ?&gt;&lt;/a&gt;&#10;  $END$&#10;  &lt;?php endif; ?&gt;" description="ACF Link Field" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="grid" value="  &lt;div class=&quot;grid-container&quot;&gt;&#10;    &lt;div class=&quot;grid-x grid-margin-x&quot;&gt;&#10;      &#10;    &lt;/div&gt;&#10;  &lt;/div&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+    </context>
+  </template>
+  <template name="tn" value=" &lt;b style=&quot;position: fixed; left:20px; top:40px; z-index: 10; color: olive;&quot;&gt;&#10; &#9;&#9;&#9;&lt;?php&#10; &#9;&#9;&#9;global $template;&#10; &#9;&#9;&#9;print_r( basename( $template ) );&#10; &#9;&#9;&#9;?&gt;&#10; &lt;/b&gt;" description="" toReformat="false" toShortenFQNames="true">
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
+  <template name="@b" value="@include breakpoint ($1$) {&#10;$END$&#10;}" description="Media Query" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="CSS" value="true" />
+    </context>
+  </template>
+  <template name="ifform" value=" &lt;?php if($$$1$ = get_field('$1$' , $2$)) : ?&gt;&#10;        &lt;?php gravity_form( $$$1$['id'], $3$, $4$, false, '', true, 1 ); ?&gt;&#10; &lt;?php endif; ?&gt;" description="Form acf field" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="3" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
