@@ -52,7 +52,7 @@
       <option name="HTML" value="true" />
     </context>
   </template>
-  <template name="iflink" value="  &lt;?php if($$$1$ = get_field('$1$'$2$)) :&#10;         $$$1$_target = $$$1$['target'] ? $$$1$['target'] : '_self'; ?&gt;&#10;  &lt;a &lt;?php echo esc_attr( $$$1$_target); ?&gt; href=&quot;&lt;?php echo $$$1$['url'] ?&gt;&quot;&gt;&lt;?php echo $$$1$['title'] ?&gt;&lt;/a&gt;&#10;  $END$&#10;  &lt;?php endif; ?&gt;" description="ACF Link Field" toReformat="false" toShortenFQNames="true">
+  <template name="iflink" value="  &lt;?php if($$$1$ = get_field('$1$'$2$)) :&#10;         $$$1$_target = $$$1$['target'] ? $$$1$['target'] : '_self'; ?&gt;&#10;  &lt;a target=&quot;&lt;?php echo esc_attr( $$$1$_target); ?&gt;&quot; href=&quot;&lt;?php echo $$$1$['url'] ?&gt;&quot;&gt;&lt;?php echo $$$1$['title'] ?&gt;&lt;/a&gt;&#10;  $END$&#10;  &lt;?php endif; ?&gt;" description="ACF Link Field" toReformat="false" toShortenFQNames="true">
     <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
     <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
     <context>
