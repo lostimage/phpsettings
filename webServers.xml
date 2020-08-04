@@ -1,12 +1,11 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="5b93caef-ee88-4f62-890a-8615197892dc" name="ready3" url="http://ready-for-feedback3.com/target-market/blog-project/">
-        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/target-market/blog-project/wp-content/themes/react-theme" accessType="SFTP">
+      <webServer id="5b93caef-ee88-4f62-890a-8615197892dc" name="ready3" url="http://ready-for-feedback3.com/target-market/west-virginia/">
+        <fileTransfer rootFolder="/var/www/html/target-market/west-virginia/wp-content/themes/west-virginia" accessType="SFTP" host="64.91.224.47" port="25566" sshConfigId="59331651-74ec-426f-8862-1756c1c32446" sshConfig="ready3">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="25566" />
         </fileTransfer>
       </webServer>
     </option>
