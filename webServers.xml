@@ -2,11 +2,10 @@
   <component name="WebServers">
     <option name="servers">
       <webServer id="5b93caef-ee88-4f62-890a-8615197892dc" name="ready3" url="http://ready-for-feedback3.com/target-market/blog-project/">
-        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/target-market/blog-project/wp-content/themes/react-theme" accessType="SFTP">
+        <fileTransfer rootFolder="/var/www/html/target-market/blog-project/wp-content/themes/react-theme" accessType="SFTP" sshConfigId="29b7bb9c-5f41-457c-b21c-54619494a8c8" sshConfig="ready3">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
-          <option name="port" value="25566" />
         </fileTransfer>
       </webServer>
     </option>
