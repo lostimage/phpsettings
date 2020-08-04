@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="64.91.224.47" id="42f26685-056d-4ae1-b139-b38345b32251" port="25566" customName="ready3" nameFormat="CUSTOM">
+      <sshConfig authType="PASSWORD" host="64.91.224.47" id="42f26685-056d-4ae1-b139-b38345b32251" port="25566" customName="ready3" nameFormat="CUSTOM" username="leov0">
         <option name="customName" value="ready3" />
       </sshConfig>
     </configs>
