@@ -15,6 +15,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="064cbf7f-e6d3-494f-bf1e-2b96774f1587" name="los_dev" url="http://test.losos.studio">
+        <fileTransfer rootFolder="/wp-content/themes/globino" host="test.losos.studio" port="21">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
