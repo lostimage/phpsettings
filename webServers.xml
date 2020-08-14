@@ -9,7 +9,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="5b93caef-ee88-4f62-890a-8615197892dc" name="ready3" url="http://ready-for-feedback3.com/target-market/west-virginia/">
-        <fileTransfer rootFolder="/var/www/html/target-market/west-virginia/wp-content/themes/west-virginia" accessType="SFTP" host="rosemaryrye.sftp.wpengine.com" port="2222" sshConfigId="42f26685-056d-4ae1-b139-b38345b32251" sshConfig="ready3">
+        <fileTransfer rootFolder="/var/www/html/target-market/west-virginia/wp-content/themes/west-virginia" accessType="SFTP" host="64.91.224.47" port="25566" sshConfigId="42f26685-056d-4ae1-b139-b38345b32251" sshConfig="ready3">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
@@ -26,6 +26,13 @@
         <fileTransfer rootFolder="/public_html/wp-content/themes/targetmarket" accessType="FTPS" host="69.167.138.47" port="21">
           <advancedOptions>
             <advancedOptions passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
+      <webServer id="59712a32-ef70-4b8c-806b-72afa76749eb" name="kamm" url="http://ready-for-feedback3.com/target-market/kamm-mckenzie/">
+        <fileTransfer rootFolder="/var/www/html/target-market/kam-mckenzie/wp-content/themes/kamm" accessType="SFTP" host="64.91.224.47" port="25566" sshConfigId="42f26685-056d-4ae1-b139-b38345b32251" sshConfig="ready3">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
         </fileTransfer>
       </webServer>

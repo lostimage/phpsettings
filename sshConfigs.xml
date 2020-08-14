@@ -1,7 +1,7 @@
 <application>
   <component name="SshConfigs">
     <configs>
-      <sshConfig authType="PASSWORD" host="rosemaryrye.sftp.wpengine.com" id="42f26685-056d-4ae1-b139-b38345b32251" port="2222" customName="ready3" nameFormat="CUSTOM" username="rosemaryrye-lostimage">
+      <sshConfig authType="PASSWORD" host="64.91.224.47" id="42f26685-056d-4ae1-b139-b38345b32251" port="25566" customName="ready3" nameFormat="CUSTOM" username="leov0">
         <option name="customName" value="ready3" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="sftp.flywheelsites.com" id="43f54209-d5fe-4297-ab28-9c04710dae6c" port="22" nameFormat="DESCRIPTIVE" username="tmwilliam" />
