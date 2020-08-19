@@ -5,6 +5,9 @@
         <option name="customName" value="ready3" />
       </sshConfig>
       <sshConfig authType="PASSWORD" host="sftp.flywheelsites.com" id="43f54209-d5fe-4297-ab28-9c04710dae6c" port="22" nameFormat="DESCRIPTIVE" username="tmwilliam" />
+      <sshConfig authType="PASSWORD" host="leahylaw.sftp.wpengine.com" id="48e5c921-0fa1-4a81-a25e-72962ddeb371" port="2222" customName="leahywpengine" nameFormat="CUSTOM" username="leahylaw-lostimage">
+        <option name="customName" value="leahywpengine" />
+      </sshConfig>
     </configs>
   </component>
 </application>
