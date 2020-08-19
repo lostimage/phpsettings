@@ -1,6 +1,13 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="3514bce4-28d7-4053-b8d0-365699087c55" name="leahylaw" url="https://leahylaw.wpengine.com/">
+        <fileTransfer rootFolder="/wp-content/themes/leahylaw" accessType="SFTP" host="leahylaw.sftp.wpengine.com" port="2222" sshConfigId="48e5c921-0fa1-4a81-a25e-72962ddeb371" sshConfig="leahywpengine">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
       <webServer id="d24a55d1-a409-4a15-851c-8dcda01e0ff6" name="river-island" url="https://riverlandingdentistry.com/">
         <fileTransfer rootFolder="/org-digico-agency/river-landing-dentistry/wp-content/themes/rebecazechmann" accessType="SFTP" host="sftp.flywheelsites.com" port="22" sshConfigId="43f54209-d5fe-4297-ab28-9c04710dae6c" sshConfig="tmwilliam@sftp.flywheelsites.com:22 password">
           <advancedOptions>
