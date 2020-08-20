@@ -43,6 +43,13 @@
           </advancedOptions>
         </fileTransfer>
       </webServer>
+      <webServer id="2f9463b9-53b9-4b87-88e7-db5629807a2b" name="fright-night" url="http://boonehallfrightnights.com/">
+        <fileTransfer rootFolder="/public_html/wp-content/themes/boonehallfrightnights" accessType="FTPS" host="boonehallfrightnights.com" port="21">
+          <advancedOptions>
+            <advancedOptions passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
