@@ -1,8 +1,8 @@
 <application>
   <component name="WebServers">
     <option name="servers">
-      <webServer id="0b68aa86-ce59-40c9-95c0-36f5ac4c0be1" name="ready 3 old" url="http://ready-for-feedback3.com/target-market/target-market-site/">
-        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/target-market/target-market-site/wp-content/themes/target-market-site" accessType="SFTP">
+      <webServer id="0b68aa86-ce59-40c9-95c0-36f5ac4c0be1" name="ready 3 old" url="http://ready-for-feedback3.com/target-market/legion/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/target-market/legion/wp-content/themes/legion" accessType="SFTP">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
