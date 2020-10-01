@@ -41,6 +41,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="d79653dc-4fdc-4e50-9652-5c2a9fb12343" name="losos2" url="http://test2.losos.studio">
+        <fileTransfer host="test2.losos.studio" port="21" rootFolder="/wp-content/themes/webp-theme">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
