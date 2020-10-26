@@ -49,6 +49,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="f1f94f9d-7390-4dd5-8173-f90467db3406" name="jkjewell" url="http://ready-for-feedback3.com/target-market/shivy/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/target-market/shivy/wp-content/themes/jkdesigns" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
