@@ -57,6 +57,14 @@
           <option name="port" value="25566" />
         </fileTransfer>
       </webServer>
+      <webServer id="75c6ae0e-5f84-491e-8684-88d7620f3486" name="dmid" url="https://dmid.wpengine.com/">
+        <fileTransfer host="dmid.sftp.wpengine.com" port="2222" rootFolder="/wp-content/themes/mid" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
