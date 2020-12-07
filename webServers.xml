@@ -65,6 +65,14 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
+      <webServer id="c4a16322-a1b1-4c3b-b76f-464ae0c7a7bc" name="nomad-golf" url="http://ready-for-feedback3.com/nomad-communications/golf-ski-maintenance/">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/nomad-communications/golf-ski-maintenance/wp-content" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
