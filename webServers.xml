@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="d6127ac1-4f39-480c-bcbb-8aa48594a7ec" name="mofat" url="https://stgmoffattscra.wpengine.com/">
+        <fileTransfer host="stgmoffattscra.sftp.wpengine.com" port="2222" rootFolder="/wp-content/themes/moffatt-scrap-iron" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="2222" />
+        </fileTransfer>
+      </webServer>
       <webServer id="c8d583e8-2967-44df-a67b-f3547e251018" name="nomad-golf-stage" url="https://www.staging2.golfskiwarehouse.com/">
         <fileTransfer host="golfskiwarehouse.com" port="21" rootFolder="/public_html/wp-content/themes/golf-ski">
           <advancedOptions>
