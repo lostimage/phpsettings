@@ -10,7 +10,7 @@
         </fileTransfer>
       </webServer>
       <webServer id="c8d583e8-2967-44df-a67b-f3547e251018" name="nomad-golf-stage" url="https://www.staging2.golfskiwarehouse.com/">
-        <fileTransfer host="golfskiwarehouse.com" port="21">
+        <fileTransfer host="golfskiwarehouse.com" port="21" rootFolder="/public_html/wp-content/plugins">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
