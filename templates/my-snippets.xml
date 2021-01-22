@@ -87,4 +87,14 @@
       <option name="PHP" value="true" />
     </context>
   </template>
+  <template name="ifi" value="&lt;?php if($$$1$ = get_field('$1$'$2$)) :&#10;echo wp_get_attachment_image($$$1$['id'] , $4$ ,false, array( 'class' =&gt; $5$ ));$END$&#10;endif; ?&gt;" description="If image field" toReformat="false" toShortenFQNames="true">
+    <variable name="1" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="2" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="4" expression="" defaultValue="" alwaysStopAt="true" />
+    <variable name="5" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="HTML" value="true" />
+      <option name="PHP" value="true" />
+    </context>
+  </template>
 </templateSet>
