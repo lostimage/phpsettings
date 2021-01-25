@@ -9,8 +9,8 @@
           <option name="port" value="2222" />
         </fileTransfer>
       </webServer>
-      <webServer id="c8d583e8-2967-44df-a67b-f3547e251018" name="nomad-golf-stage" url="https://www.staging2.golfskiwarehouse.com/">
-        <fileTransfer host="golfskiwarehouse.com" port="21" rootFolder="/public_html/wp-content/plugins">
+      <webServer id="c8d583e8-2967-44df-a67b-f3547e251018" name="nomad-golf-stage" url="https://www.staging6.golfskiwarehouse.com/">
+        <fileTransfer host="golfskiwarehouse.com" port="21" rootFolder="/public_html/wp-content/themes/golf-ski">
           <advancedOptions>
             <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
           </advancedOptions>
