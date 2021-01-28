@@ -89,6 +89,14 @@
           <option name="port" value="25566" />
         </fileTransfer>
       </webServer>
+      <webServer id="685810f2-de1c-48d6-a046-17c26af7806b" name="nomad-golf-live" url="https://www.staging6.golfskiwarehouse.com/">
+        <fileTransfer host="golfskiwarehouse.com" port="21" rootFolder="/wp-content/themes">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
