@@ -97,6 +97,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="c81bc769-6990-4952-b771-bba5f7784840" name="nomad-stage-root" url="https://www.staging6.golfskiwarehouse.com/">
+        <fileTransfer host="golfskiwarehouse.com" port="21" rootFolder="/public_html/wp-content/plugins/yith-woocommerce-gift-cards-premium">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
