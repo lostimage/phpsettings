@@ -1,6 +1,14 @@
 <application>
   <component name="WebServers">
     <option name="servers">
+      <webServer id="c537bcdc-ef2f-4409-bae5-bf563976c9d9" name="dbglob live" url="http://205.186.139.161">
+        <fileTransfer host="205.186.139.161" port="21" rootFolder="/wp-content/themes/global-american">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="21" />
+        </fileTransfer>
+      </webServer>
       <webServer id="d6127ac1-4f39-480c-bcbb-8aa48594a7ec" name="mofat" url="https://stgmoffattscra.wpengine.com/">
         <fileTransfer host="stgmoffattscra.sftp.wpengine.com" port="2222" rootFolder="/wp-content/themes/moffatt-scrap-iron" accessType="SFTP">
           <advancedOptions>
