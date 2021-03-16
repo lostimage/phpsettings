@@ -113,6 +113,14 @@
           <option name="port" value="21" />
         </fileTransfer>
       </webServer>
+      <webServer id="7af02443-1f88-4b47-9596-75d5778f8e20" name="dealerglass" url="http://ready-for-feedback3.com/klik3/dealerglass">
+        <fileTransfer host="64.91.224.47" port="25566" rootFolder="/var/www/html/klik3/dealerglass/wp-content/themes/dealerglass-child" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="25566" />
+        </fileTransfer>
+      </webServer>
     </option>
   </component>
 </application>
