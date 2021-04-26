@@ -52,7 +52,8 @@
   </codeStyleSettings>
   <codeStyleSettings language="SCSS">
     <indentOptions>
-      <option name="TAB_SIZE" value="2" />
+      <option name="INDENT_SIZE" value="1" />
+      <option name="TAB_SIZE" value="1" />
     </indentOptions>
   </codeStyleSettings>
 </code_scheme>
